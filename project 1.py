@@ -87,7 +87,7 @@ print ("Thank you, i hope you have a great time on your daytrip!")
 # 1. What was the biggest challenge you faced on the project? How did you overcome it?
 
 # Figuring out hope to end the while loops and I'm still having issues with the return function. I overcame
-# some of this by using my resources from class, w3schools, google, and then asking instructors.
+# some of this by using my resources from class, w3schools, google, and then asking instructors for assistance.
 
 # 2. What was your favorite part of the project?
 # My favorite part of the project was getting better at loops. I'm sure this is a feature among many companies that
