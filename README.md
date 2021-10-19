@@ -1,5 +1,6 @@
-# Day_Trip_Generator
+Daytrip Generator
+-----------------
 
-Type some random text about this file that other developers or users need to know.
+Welcome to the daytrip generator in which you can have a random daytrip scenario created just for you! At the end of this program, you can also have your results printed off, so, that way you can take this with you to make notes or on your trip :)
 
-And now JJ has added more stuff to my README that I will end up deleting.
+!!Enjoy the daytrip generator and thank you for visiting!!

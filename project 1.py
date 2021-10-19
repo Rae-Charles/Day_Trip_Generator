@@ -22,10 +22,9 @@ random_element = random.choice(destinations + restaurants + modes_of_transportat
 print(random_element)
 
 
-regenerate_random_scenario = True
-
+repeat_random_destination = input('Would you like another random destination, restaurant, mode of transportation, and entertainment?') 
 while regenerate_random_scenario is True:
-    repeat_random_destination = input('Would you like another random destination, restaurant, mode of transportation, and entertainment?') 
+    
     if repeat_random_destination == "yes":
         print(random_destination, random_restaurant, random_mode_of_transportation, random_entertainment)
     else:
@@ -36,28 +35,22 @@ print("Program done!")
 
 
 
-# TODO: write a function that can get a random element from a list
-
-generate_random_element = True
-
+generate_single_element = input('Would you like a random element from all lists mentioned?')
 while generate_random_element is True:
-    generate_single_element = input('Would you like a random element from all lists mentioned?')
+
     if generate_single_element == "yes":
         print(random_element)
     else:
         generate_random_element = False
         print("Glad that you are satisfied with your daytrip so far!")    
 
-
 print("Moving on to the next question!")
 
 
 
-satisfaction = True
-
-while satisfaction is True:
-    satisfaction_with_trip = input('Are you satisfied with your daytrip details?')
-    if satisfaction == "yes":
+satisfaction_with_trip = input('Are you satisfied with your daytrip details?')
+while satisfaction_with_trip is True:    
+    if satisfaction_with_trip == "yes":
         print("I'm glad that you are satisfied with your daytrip!")
     else:
         satisfaction = False
@@ -67,19 +60,35 @@ while satisfaction is True:
 print("Let's continue!")
 
 
-
-generate_daytrip = True
-
-while generate_daytrip = True
-    daytrip_satisfaction = input('Would you like a printout of your daytrip?')
-    if generate_daytrip == "yes":
-        display: return(result of "repeat_random_scenario")
+daytrip_satisfaction = input('Would you like a printout of your daytrip?')
+while daytrip_satisfaction is True:
+    if daytrip_satisfaction == "yes":
+    print("I'm glad that you are satisfied with your daytrip!! Here is a printout of your details: {}".format(trip details here))
+    
     else:
-        generate_daytrip = False
-        return "repeat_random_scenario"
+        daytrip_satisfaction == False
+        return (repeat_random_scenario)
+
+
+
+
+# def add_two_numbers(num_one, num_two):
+#     result = num_one + num_two
+#     return result
+    
+# sum = add_two_numbers(1,2)
+
+# def display_sum(sum):
+#     print(sum)
+
+# display_sum(sum)
+
 
 
 print ("Thank you, i hope you have a great time on your daytrip!")
+
+
+
 
 
 
@@ -93,17 +102,3 @@ print ("Thank you, i hope you have a great time on your daytrip!")
 # My favorite part of the project was getting better at loops. I'm sure this is a feature among many companies that
 # will come in handy with a developer career. I have and will continue to improve upon this, I'm sure, with
 # the multiple of projects and practice that we will be getting during this program. 
-
-
-
-# def add_two_numbers(num_one, num_two):
-#     result = num_one + num_two
-#     return result
-    
-
-# sum = add_two_numbers(1,2)
-
-# def display_sum(sum):
-#     print(sum)
-
-# display_sum(sum)
