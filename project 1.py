@@ -22,19 +22,23 @@ random_element = random.choice(destinations + restaurants + modes_of_transportat
 print(random_element)
 
 
-repeat_random_destination = input('Would you like another random destination, restaurant, mode of transportation, and entertainment?') 
-while regenerate_random_scenario is True:
+
+# generate random element from all lists, assignment from JJ
+repeat_random_destination = input("Would you like another random destination, restaurant, mode of transportation, and entertainment? \n") 
+while repeat_random_destination != "yes" and != "no":
     
-    if repeat_random_destination == "yes":
+        
+        print("I think this is going to be a great daytrip, glad you're satisfied")
+
+    else: 
+        repeat_random_destination == "yes":
         print(random_destination, random_restaurant, random_mode_of_transportation, random_entertainment)
-    else:
-        regenerate_random_scenario = False
-        print("Really enjoyed this trip, I'm good!")
-
-print("Program done!")
+   
 
 
 
+
+# ask user if they want a random element from individual lists, seperated
 generate_single_element = input('Would you like a random element from all lists mentioned?')
 while generate_random_element is True:
 
@@ -48,26 +52,46 @@ print("Moving on to the next question!")
 
 
 
-satisfaction_with_trip = input('Are you satisfied with your daytrip details?')
-while satisfaction_with_trip is True:    
-    if satisfaction_with_trip == "yes":
-        print("I'm glad that you are satisfied with your daytrip!")
-    else:
-        satisfaction = False
-        return "repeat_random_scenario"
 
 
-print("Let's continue!")
 
 
-daytrip_satisfaction = input('Would you like a printout of your daytrip?')
-while daytrip_satisfaction is True:
-    if daytrip_satisfaction == "yes":
-    print("I'm glad that you are satisfied with your daytrip!! Here is a printout of your details: {}".format(trip details here))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# satisfaction_with_trip = input('Are you satisfied with your daytrip details?')
+# while satisfaction_with_trip is True:    
+#     if satisfaction_with_trip == "yes":
+#         print("I'm glad that you are satisfied with your daytrip!")
+#     else:
+#         satisfaction = False
+#         return "repeat_random_scenario"
+
+
+# print("Let's continue!")
+
+
+# daytrip_satisfaction = input('Would you like a printout of your daytrip?')
+# while daytrip_satisfaction is True:
+#     if daytrip_satisfaction == "yes":
+#     print("I'm glad that you are satisfied with your daytrip!! Here is a printout of your details: {}".format(trip details here))
     
-    else:
-        daytrip_satisfaction == False
-        return (repeat_random_scenario)
+#     else:
+#         daytrip_satisfaction == False
+#         return (repeat_random_scenario)
 
 
 
